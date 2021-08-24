@@ -1,0 +1,19 @@
+button {
+  font-size: 0.8rem !important;
+  padding: 0.3rem 0.5rem !important;
+}
+button:hover {
+  background: rgb(36, 29, 29);
+  color: #fff !important;
+}
+table {
+  width: 70% !important;
+}
+td {
+  font-weight: bold;
+}
+#num-of-try {
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+}
