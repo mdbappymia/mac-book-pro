@@ -33,6 +33,8 @@ document.getElementById("apply-coupon").addEventListener("click", function () {
   if (promoCode == validatePromo) {
     overallTotalAmount = overallTotalAmount - overallTotalAmount * 0.2;
     document.getElementById("overall-total").innerText = overallTotalAmount;
+    document.getElementById("num-of-try").innerText = "";
+    count = 3;
   } else {
     count--;
     document.getElementById("num-of-try").innerText = `Your ${count} try left`;
